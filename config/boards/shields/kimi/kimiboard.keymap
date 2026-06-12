@@ -18,19 +18,19 @@
         default_layer {
             bindings = <
                 // row0左から右へ（一番左のキーはリセットボタン）
-                &bt BT_NXT  &kp BACKSPACE  &kp SPACE  &kp ENTER
+                &bt BT_NXT  &kp ENTER  &kp SPACE  &kp BACKSPACE
             >;
 	};
 
     mouse_key_layer {
             bindings = <
-                &trans  &mkp MB3  &mkp LCLK  &mkp RCLK
+                &trans  &mkp RCLK  &mkp LCLK  &mkp MB3
         >;
     };
 
     auto_mouse_layer {
             bindings = <
-                &trans  &mkp MB3  &mkp LCLK  &mkp RCLK
+                &trans  &mkp RCLK  &mkp LCLK  &mkp MB3
         >;
     };
 
@@ -53,7 +53,7 @@
 
         combo_layer1 {
             bindings = <&lt 3 LANGUAGE_2>;
-            key-positions = <1 2>;
+            key-positions = <2 3>;
             timeout-ms = <50>;
         };
         
@@ -62,7 +62,7 @@
 
         combo_layer2 {
             bindings = <&kp LANGUAGE_1>;
-            key-positions = <2 3>;
+            key-positions = <1 2>;
             timeout-ms = <50>;
         };
 
@@ -80,7 +80,7 @@
 
         combo_layer7 {
             bindings = <&bt BT_CLR>;
-            key-positions = <0 3>;
+            key-positions = <0 1>;
             timeout-ms = <50>;
         };
 
