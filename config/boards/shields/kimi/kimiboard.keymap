@@ -24,13 +24,13 @@
 
         default_layer {
             bindings = <
-                &bt BT_NXT  &mt_mb3 1 MB3  &mkp LCLK  &mkp RCLK
+                &bt BT_NXT  &mkp LCLK  &mt_mb3 1 MB3  &mkp RCLK
             >;
         };
 
         scroll_layer {
             bindings = <
-                &trans          &trans      &tb_rot_ccw      &tb_rot_cw
+                &trans    &tb_rot_ccw    &trans    &tb_rot_cw
             >;
         };
     };
